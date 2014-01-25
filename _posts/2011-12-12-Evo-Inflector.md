@@ -4,10 +4,6 @@ title: Evo Inflector
 author: Sławek
 ---
 
-
-Inflector
-English words pluralizator
-
 Evo Inflector implements English pluralization algorithm based on Damian Conway's paper "An Algorithmic Approach to English Pluralization".
 
 The tests performed (December 2011) based on data from Wiktionary show perfect results for 1000 basic words and 70% of corrects answers for the entire Wiktionary set of more than 100000 words.
