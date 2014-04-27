@@ -1,20 +1,20 @@
 ---
 layout: post
-title: Evo Class Index
+title: ClassIndex
 author: Sławek
 ---
 
-Evo Class Index is much quicker alternative to every run-time annotation scanning library like [Reflections](http://code.google.com/p/reflections) or [Scannotations](http://scannotation.sourceforge.net/).
+ClassIndex is much quicker alternative to every run-time annotation scanning library like [Reflections](http://code.google.com/p/reflections) or [Scannotations](http://scannotation.sourceforge.net/).
 
-Evo Class Index is an annotation processor which at compile-time generates an index of classes implementing given interface, classes annotated by given annotation or placed in a common package.
+ClassIndex is an annotation processor which at compile-time generates an index of classes implementing given interface, classes annotated by given annotation or placed in a common package.
 
-Java 6 and above automatically [discovers](http://www.jcp.org/en/jsr/detail?id=269) the processor when put on the classpath and executes it during compilation. Download [evo-classindex](http://search.maven.org/remotecontent?filepath=org/atteo/evo-classindex/1.0/evo-classindex-1.0.jar) jar file (also requires [Guava](http://code.google.com/p/guava-libraries/)) or simply put the following dependency in Maven POM file:
+Java 6 and above automatically [discovers](http://www.jcp.org/en/jsr/detail?id=269) the processor when put on the classpath and executes it during compilation. Download [classindex](http://search.maven.org/remotecontent?filepath=org/atteo/classindex/classindex/3.1/classindex-3.1.jar) jar file (also requires [Guava](http://code.google.com/p/guava-libraries/)) or simply put the following dependency in Maven POM file:
 
 {% highlight xml %}
 <dependency>
-    <groupid>org.atteo</groupid>
-    <artifactid>evo-classindex</artifactid>
-    <version>1.0</version>
+    <groupid>org.atteo.classindex</groupid>
+    <artifactid>classindex</artifactid>
+    <version>3.1</version>
 </dependency>
 {% endhighlight %}
 
