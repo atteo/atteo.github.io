@@ -9,13 +9,10 @@ title: Atteo
 </h3>
 
 {% for post in site.posts %}
-	<p>
-	<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-		<div style="font-size: 12px">
-			Posted <span id="post-date" data-date="{{ post.date }}"></span> by {{ post.author }}.
-		</div>
+	<fieldset>
+		<legend><h3><a href="{{ post.url }}">{{ post.title }}</a></h3></legend>
 		{{ post.excerpt }}
 		<a href="{{ post.url }}">Read more...</a>
-	</p>
+	</fieldset>
 {% endfor %}
 </section>
