@@ -22,8 +22,8 @@ You can download the library from here or use the following Maven dependency:
 
 {% highlight xml %}
 <dependency>
-    <groupid>org.atteo</groupid>
-    <artifactid>evo-inflector</artifactid>
+    <groupId>org.atteo</groupId>
+    <artifactId>evo-inflector</artifactId>
     <version>1.0.1</version>
 </dependency>
 {% endhighlight %}
